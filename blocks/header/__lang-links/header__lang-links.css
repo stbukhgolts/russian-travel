@@ -1,0 +1,7 @@
+.header__lang-links {
+  outline: 1px red solid;
+  align-self: flex-end;
+  display: flex;
+}
+
+

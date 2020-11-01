@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  outline: 1px red solid;
+  padding: 28px 48px 0 48px;
+}
+
+@media screen and (max-width:768px) {
+  .header {
+    outline: 1px red solid;
+    padding: 28px 24px 0 24px;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .header {
+    outline: 1px red solid;
+    padding: 16px 16px 0 16px;
+  }
+}
