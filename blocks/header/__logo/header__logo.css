@@ -1,5 +1,4 @@
 .header__logo {
-  outline: 1px red solid;
   width: 176px;
   height: 52px;
   background-image: url(../../header/images/header-logo.svg);
@@ -8,7 +7,6 @@
 
 @media screen and (max-width:425px) {
   .header__logo {
-    outline: 1px red solid;
     width: 142px;
     height: 42px;
     background-size: cover;
