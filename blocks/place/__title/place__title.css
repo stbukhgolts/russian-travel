@@ -1,0 +1,4 @@
+.place__title {
+  grid-area: title;
+  outline: 1px solid red;
+}

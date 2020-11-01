@@ -1,0 +1,4 @@
+.place__pharagraph {
+  grid-area: pharagraph;
+  outline: 1px solid red;
+}

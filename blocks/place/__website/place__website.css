@@ -1,0 +1,4 @@
+.place__website {
+  grid-area: url;
+  outline: 1px solid red;
+}
