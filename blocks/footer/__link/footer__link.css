@@ -11,13 +11,10 @@
 
 .footer__link:hover {
   opacity: 0.8;
-
 }
 
 @media all and (max-width: 620px) {
   .footer__link {
-
     padding-bottom: 32px;
-
   }
 }
