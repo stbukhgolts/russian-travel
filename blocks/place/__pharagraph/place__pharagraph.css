@@ -1,4 +1,53 @@
 .place__pharagraph {
-  grid-area: pharagraph;
-  outline: 1px solid red;
+  margin: 0 0 0 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.63;
+
+  margin-bottom: 26px;
+  
+  color: #FFFFFF;
+}
+
+.place__pharagraph:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width:1000px) {
+  .place__pharagraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:850px) {
+  .place__pharagraph {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .place__pharagraph {
+    margin-bottom: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:394px) {
+  .place__pharagraph {
+    margin-bottom: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .place__pharagraph {
+    max-width: 288px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
 }

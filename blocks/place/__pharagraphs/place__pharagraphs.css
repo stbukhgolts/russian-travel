@@ -1,0 +1,5 @@
+.place__pharagraphs {
+  display: flex;
+  flex-direction: column;
+  max-width: 484px;
+}

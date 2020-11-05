@@ -1,0 +1,9 @@
+.footer__link-item {
+  box-sizing: border-box;
+}
+
+@media all and (max-width: 620px) {
+  .footer__link-item {
+    margin-bottom: 32px;
+  }
+}

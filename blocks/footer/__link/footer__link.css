@@ -1,0 +1,23 @@
+.footer__link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.12;
+  color: #FFFFFF;
+  margin-right: 18px;
+  box-sizing: border-box;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
+
+}
+
+@media all and (max-width: 620px) {
+  .footer__link {
+
+    padding-bottom: 32px;
+
+  }
+}

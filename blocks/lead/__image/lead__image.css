@@ -1,25 +1,25 @@
 .lead__image {
   width: 100%;
-  height: auto;
-
-  margin: 64px auto 0 auto;
+  margin: 64px 0 0 0;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 @media screen and (max-width:1024px) {
   .lead__image {
-    margin: 56px auto 0 auto;
+    margin: 56px 48px 0 48px;
   }
 }
 
 
 @media screen and (max-width:460px) {
   .lead__image {
-    margin: 40px auto 0 auto;
+    margin: 40px 0 0 0;
   }
 }
 
 @media screen and (max-width:288px) {
   .lead__image {
-    margin: 0 auto 0 auto;
+    margin: 0 0 0 0;
   }
 }
